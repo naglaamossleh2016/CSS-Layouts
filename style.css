@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+h1,
+h2,
+h3 {
+  color: #3d4e60;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+li {
+  font-family: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+.related {
+  list-style: none;
+}
+#auther {
+  font-size: 18px;
+  font-style: italic;
+}
+.related-auther {
+  font-size: 18px;
+  font-weight: bold;
+}
+#Copyright {
+  font-size: 16px;
+}
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+aside {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  width: 500px;
+  border-radius: 3px;
+}
+nav {
+  font-size: 18px;
+}
+a:link {
+  color: #109bab;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+a:visited {
+  color: #109bab;
+}
+a:hover {
+  color: #13bec4;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+.post-header {
+  margin-bottom: 40px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+article {
+  margin-bottom: 60px;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+}
+.reactions {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+h2::after {
+  content: "Trending 💥";
+  background-color: #189bab;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 30px;
+  margin-top: 14px;
+  border-radius: 3px;
+}
+.selector {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+/* ul,
+ol {
+  list-style: none;
+}
+li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #0000ff;
+  margin-right: 10px;
+  display: inline-block;
+} */
+/* rtl direction */
+[dir="rtl"] nav a:link {
+  margin-left: 30px;
+  margin-right: 0;
+}
+[dir="rtl"] nav a:link:last-child {
+  margin-left: 0;
+}
+[dir="rtl"] .selector {
+  margin-right: 0;
+}
+[dir="rtl"] h2::after {
+  margin-left: 0;
+  margin-right: 30px;
+}
+[dir="rtl"] .reactions {
+  left: 0;
+  right: auto;
+}
+[dir="rtl"] ul,
+ol {
+  margin-right: 50px;
+  margin-left: 0;
+}
