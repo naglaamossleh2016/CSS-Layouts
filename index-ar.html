@@ -6,32 +6,41 @@
     <meta name="keywords" content="html,css,Javascript" />
     <title>The Learning Platform that you where waiting for</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
-      <header class="main-header">
+      <header class="main-header" class="main-nav">
         <h1>✨ المدرسة ✨</h1>
-        <nav aria-label="primary navigation">
-          <a href="courses.html">الكورسات</a>
-          <a href="#">المدونة</a>
-          <a href="#">تواصل معنا</a>
-        </nav>
-        <nav aria-label="language navigation">
-          <a href="index.html">الانجليزية</a>
-          <span class="selector">|</span>
-          <a href="index-ar.html">العربية</a>
-        </nav>
+        <div class="nav-content">
+          <nav aria-label="primary navigation" class="main-nav">
+            <a href="courses.html">الكورسات</a>
+            <a href="#">المدونة</a>
+            <a href="#">تواصل معنا</a>
+          </nav>
+          <nav aria-label="language navigation" class="language-nav">
+            <a href="index.html">الانجليزية</a>
+            <span class="selector">|</span>
+            <a href="index-ar.html">العربية</a>
+          </nav>
+        </div>
       </header>
       <article>
         <header class="post-header">
           <h2>منصة التعليم التي كنت تنتظرها</h2>
           <img
+            class="auther-img"
             src="assets/mohamed-abusrea.jpg"
             alt="picture of auther"
             width="50"
             height="50"
           />
-          <p id="auther">
+          <p id="auther" class="auther">
             كُتب بواسطة <strong>نجلاء مصلح </strong> في يوم السبت, 4 يناير 2023
           </p>
           <img

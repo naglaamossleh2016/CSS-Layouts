@@ -133,19 +133,11 @@ h2::after {
 .selector {
   margin-right: 30px;
 }
-/* ul,
-ol {
-  list-style: none;
-}
-li::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: #0000ff;
-  margin-right: 10px;
-  display: inline-block;
-} */
+
 /* rtl direction */
+[dir="rtl"] body {
+  font-family: "Readex Pro", sans-serif;
+}
 [dir="rtl"] nav a:link {
   margin-left: 30px;
   margin-right: 0;
@@ -165,10 +157,46 @@ li::before {
   right: auto;
 }
 [dir="rtl"] ul,
-ol {
+[dir="rtl"] ol {
   margin-right: 50px;
   margin-left: 0;
 }
+[dir="rtl"] .selector {
+  margin-left: 30px;
+}
+
+[dir="rtl"] .auther {
+  float: right;
+  margin-right: 10px;
+}
+[dir="rtl"] .auther-img {
+  float: right;
+}
+[dir="rtl"] h1 {
+  float: right;
+}
+[dir="rtl"] .main-nav {
+  float: left;
+}
+[dir="rtl"] .main-nav {
+  float: right;
+}
+[dir="rtl"] .language-nav {
+  float: left;
+  margin-right: 60px;
+}
+
+[dir="rtl"] article {
+  float: right;
+}
+[dir="rtl"] aside {
+  float: left;
+}
+
+[dir="rtl"] .related {
+  margin-right: 0;
+}
+
 /* FLOAT */
 .auther {
   float: left;
