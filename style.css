@@ -136,7 +136,7 @@ h2::after {
 [dir="rtl"] body {
   font-family: "Readex Pro", sans-serif;
 }
-[dir="rtl"] nav a:link {
+/* [dir="rtl"] nav a:link {
   margin-left: 30px;
   margin-right: 0;
 }
@@ -150,15 +150,8 @@ h2::after {
   margin-left: 0;
   margin-right: 30px;
 }
-[dir="rtl"] .reactions {
-  left: 0;
-  right: auto;
-}
-[dir="rtl"] ul,
-[dir="rtl"] ol {
-  margin-right: 50px;
-  margin-left: 0;
-}
+
+
 [dir="rtl"] .selector {
   margin-left: 30px;
 }
@@ -193,7 +186,7 @@ h2::after {
 
 [dir="rtl"] .related {
   margin-right: 0;
-}
+} */
 
 /* FLOAT */
 /* .auther {
@@ -243,7 +236,15 @@ footer {
 h4 {
   margin-bottom: 30px;
 } */
-
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  margin-right: 50px;
+  margin-left: 0;
+}
+[dir="rtl"] .reactions {
+  left: 0;
+  right: auto;
+}
 /* FLEXBOX */
 .main-header {
   display: flex;
