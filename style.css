@@ -72,7 +72,6 @@ li:last-child {
 aside {
   background-color: #f7f7f7;
   padding: 50px 0;
-  width: 500px;
   border-radius: 3px;
 }
 nav {
@@ -81,7 +80,6 @@ nav {
 a:link {
   color: #109bab;
   text-decoration: none;
-  margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
 }
@@ -131,7 +129,7 @@ h2::after {
   border-radius: 3px;
 }
 .selector {
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 /* rtl direction */
@@ -198,7 +196,7 @@ h2::after {
 }
 
 /* FLOAT */
-.auther {
+/* .auther {
   float: left;
   margin-left: 10px;
   margin-top: 20px;
@@ -244,4 +242,52 @@ footer {
 }
 h4 {
   margin-bottom: 30px;
+} */
+
+/* FLEXBOX */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-content {
+  display: flex;
+  gap: 60px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.post-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.auther {
+  margin-bottom: 0;
+}
+.related-post {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.related-auther {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+.related-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+aside {
+  flex-basis: 350px;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
