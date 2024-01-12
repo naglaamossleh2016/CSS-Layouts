@@ -127,9 +127,6 @@ h2::after {
   margin-top: 14px;
   border-radius: 3px;
 }
-.selector {
-  /* margin-right: 30px; */
-}
 
 /* rtl direction */
 [dir="rtl"] body {
